@@ -11,6 +11,9 @@ A lightweight webserver based on libuv and http-parser
 * <https://github.com/h2o/h2o>
 
 ## Build & Run
+
+* `gcc webserver.c -I/usr/local/include -luv -lhttp_parser`
+
 * `./start_build.sh`
 * `cd build`
 * `make`
